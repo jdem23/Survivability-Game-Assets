@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/bolt.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/Lightning.png" id="2"]
+
+[node name="Bolt" type="Sprite2D"]
+scale = Vector2(2.5, 2.5)
+texture = ExtResource("2")
+hframes = 3
+vframes = 4
+script = ExtResource("1")
